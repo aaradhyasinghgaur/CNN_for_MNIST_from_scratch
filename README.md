@@ -5,8 +5,7 @@
 2. [Tools and Technology](#toolsandtechnology)
 3. [Network Architecture](#networkarchitecture)
 4. [Training and Testing](#trainingandtesting)
-5. [Appendix](#appendix)
-
+   
 -----
 
 ## Introduction
@@ -47,6 +46,21 @@ Below is the brief discription of each file/layer and its function :-
 -----------
 
 ## Training and Testing 
+
+**network.cpp -** It includes training and testing functions to train and test the dataset.
+
+**Training -** The dataset contains 60,000 images for training and 10,000 for testing . 
+I've splitted the training dataset further into two parts validation dataset for 6000 images and training dataset for 54,000.
+For each mini batch of 2000 images the model is being trained for epoch = 10 and learning rate = 0.001
+After training the complete dataset of 54,000 images the validation set giing the accuracy of 96.75 %.
+
 ![Example Image](https://github.com/kyra-09/CNN_for_MNIST_from_scratch/blob/main/Screenshot%20(152).png)
+
+**Testing -** On testing the dataset of 10,000 images it is giving final accuracy of 97 % which is described is more than good accuracy for MNIST dataset.
+
+-----------
+
+
+
 
 
