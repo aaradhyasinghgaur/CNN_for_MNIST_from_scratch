@@ -44,8 +44,8 @@ Below is the brief discription of each file/layer and its function :-
 
 **10.) network.h -** This file contains network architecture for our model with various functions such as reading the training and test dataset and training , validation and test functions to train and test the model.
 
-
-
+-----------
 
 ## Training and Testing 
+https://github.com/kyra-09/CNN_for_MNIST_from_scratch/blob/main/Screenshot%20(152).png
 
