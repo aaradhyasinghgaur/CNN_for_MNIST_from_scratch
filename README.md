@@ -7,13 +7,19 @@
 4. [Training and Testing](#trainingandtesting)
 5. [Appendix](#appendix)
 
+
+
    
 ## Introduction
 This repository contains source code for Convolutional Neural Network to train and predict MNIST dataset which is a dataset for handwritten digits from 0-9 , using C++ as programming language. It is purely made using standard library for C++ without any third party library . It contains all the basic features of a CNN such as multiple layers.
 
 
+
+
 ## Tools and Technology
 C++ , Standard Library for C/C++ , VS Code Editor , Machine Learning , Image/data Processing .
+
+
 
 
 ## Network Architecture
@@ -40,6 +46,8 @@ Below is the brief discription of each file/layer and its function :-
 **9.) matrix.h -** It includes matrix realted operations such as transpose , initialising matrix with random values and falttening the data.
 
 **10.) network.h -** This file contains network architecture for our model with various functions such as reading the training and test dataset and training , validation and test functions to train and test the model.
+
+
 
 
 ## Training and Testing 
