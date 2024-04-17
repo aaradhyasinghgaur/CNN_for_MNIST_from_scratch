@@ -14,6 +14,7 @@ C++ , Standard Library for C/C++ , VS Code Editor , Machine Learning , Image/dat
 
 ## Network Architecture
 This framework contains multiple layers of Convolutional Neural Network such as convolution layer , fully connected layer (dense layer) , activation layer , activation functions etc. It also contains a data handling file to store the binary data of MNIST in suitable data structure for easier processing when passed among different layers.
+
 Below is the brief discription of each file/layer and its function :-
 
 **1.) data.h -** This container encapsulates the data in feature vector and label of each image of size 28 * 28 and declares some setter and getter functions to set and retrieve the data whenever asked.
