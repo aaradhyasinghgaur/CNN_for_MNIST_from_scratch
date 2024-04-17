@@ -47,5 +47,7 @@ Below is the brief discription of each file/layer and its function :-
 -----------
 
 ## Training and Testing 
-https://github.com/kyra-09/CNN_for_MNIST_from_scratch/blob/main/Screenshot%20(152).png
+![Alt Text]https://github.com/kyra-09/CNN_for_MNIST_from_scratch/blob/main/Screenshot%20(152).png)
+![Example Image](images/.png)
+
 
