@@ -5,7 +5,8 @@
 2. [Tools and Technology](#toolsandtechnology)
 3. [Network Architecture](#networkarchitecture)
 4. [Training and Testing](#trainingandtesting)
-
+5. [Appendix](#appendix)
+   
 ## Introduction
 This repository contains source code for Convolutional Neural Network to train and predict MNIST dataset which is a dataset for handwritten digits from 0-9 , using C++ as programming language. It is purely made using standard library for C++ without any third party library . It contains all the basic features of a CNN such as multiple layers.
 
@@ -23,5 +24,19 @@ Below is the brief discription of each file/layer and its function :-
 
 **3.) layer.h -** This is an abstract class which declares basic functions such as forward and backward propogation of each layer in a network.
 
-**4.)
+**4.) convolution.h -** It initialises dimensions of input , kernel(filters) , output and random values for weights and biases. It introduces forward and backward propogation functions for co-relation and convolution operations . It is used to learn spatial hierarchies of features from input data.
+
+**5.) activation.h -** It is an activation layer which is defined after each layer which introduces non-linearity into the model , for model to learn more complex features to predict correct class for each data.
+
+**6.) activation_functions.h -** Several activation functions are introduced in this file for various different machine learning tasks , such as tanh , ReLu , Sigmoid and Softmax . For MNIST dataset particularly which is multi-class classification , functions like Sigmoid and Softmax are used.
+
+**7.) dense.h -** It is also known as fully-connected layer . Flatten data (multi-dimensional feature maps into a one-dimensional array) is passed through dense layer for the final prediction of the output class.
+
+**8.) loss.h -** Various different loss/cost functions are defined in this file which are used for several different machine learning tasks , such as mse(Mean squared error) and binary-cross entropy which are used for binary clasification. For MNIST particularly catagorical cross-entropy is used to measure the error for each data-point(image) using actual probability and predicted probability for each class .
+
+**9.) matrix.h -** It includes matrix realted operations such as transpose , initialising matrix with random values and falttening the data.
+
+**10.) network.h -** This file contains network architecture for our model with various functions such as reading the training and test dataset and training , validation and test functions to train and test the model.
+
+## Training and Testing 
 
