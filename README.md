@@ -9,12 +9,12 @@
 -----
 
 ## Introduction
-This repository contains source code for Convolutional Neural Network to train and predict MNIST dataset which is a dataset for handwritten digits from 0-9 , using C++ as programming language. It is purely made using standard library for C++ without any third party library . It contains all the basic features of a CNN such as multiple layers.
+This repository contains source code for Convolutional Neural Network to train and predict MNIST dataset which is a dataset for handwritten digits from 0-9 , using C++ as programming language. It is purely made using standard libraries for C++ without any third party libraries . It contains all the basic features of a CNN such as multiple layers.
 
 -----------
 
 ## Tools and Technology
-C++ , Standard Library for C/C++ , VS Code Editor , Machine Learning , Image/data Processing .
+C++ , Standard Libraries for C/C++ , VS Code Editor , Machine Learning , Image/data Processing .
 
 ---------
 
