@@ -73,16 +73,6 @@ Convolution::Convolution(Vector_int _input_dim , Vector_int _kernel_dim)
    Matrix_3d input_gradient( input_dim[0], Matrix_2d(input_dim[1], Vector_double(input_dim[2] , 0) ) );
    Matrix_3d grad_input( output_dim[0], Matrix_2d(input_dim[1], Vector_double(input_dim[2] , 0) ) );
 
-      // // Update weights using L2 regularization
-      // for (size_t i = 0; i < self_filters.size(); ++i) {
-      //       for (size_t j = 0; j < self_filters[i].size(); ++j) {
-      //          for (size_t k = 0; k < self_filters[i][j].size(); ++k) {
-      //             for (size_t m = 0; m < self_filters[i][j][k].size(); ++m) {
-      //             self_filters[i][j][k][m] -= lambda * self_filters[i][j][k][m];
-      //          }
-      //       }
-      //    }
-      // }
 
       // 4d kernel_gardient = 0 (initialization)
    Matrix_4d kernel_gradient (kernel_dim[0], Matrix_3d( kernel_dim[1], Matrix_2d(kernel_dim[2], Vector_double(kernel_dim[3] , 0) ) ));    
